@@ -39,6 +39,6 @@ group :production do
   gem 'pg', '0.12.2'
 end
 
-gem 'ruby-debug19'
+gem 'debugger', group: [:development, :test]
 gem 'execjs'
 gem 'therubyracer'
